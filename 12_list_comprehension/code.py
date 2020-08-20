@@ -4,6 +4,7 @@ print(numbers) # [1,3,5]
 print(doubled) # [2,6,10]
 
 # -- Dealing with strings --
+# Useing for .. if loop .. but next one down pulls it into one line.
 
 friends = ["Rolf", "Sam", "Samantha", "Saurabh", "Jen"]
 starts_s = []
@@ -31,3 +32,9 @@ print(friends)
 print(starts_s)
 print(friends is starts_s)
 print("friends: ", id(friends), " starts_s: ", id(starts_s))
+
+# Output from above
+#['Sam', 'Samantha', 'Saurabh']
+#['Sam', 'Samantha', 'Saurabh']
+#False
+#friends:  140550452359232  starts_s:  140550454883264
