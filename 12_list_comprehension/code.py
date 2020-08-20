@@ -1,5 +1,7 @@
 numbers = [1, 3, 5]
-squares = [x * 2 for x in numbers]
+doubled = [x * 2 for x in numbers]
+print(numbers) # [1,3,5]
+print(doubled) # [2,6,10]
 
 # -- Dealing with strings --
 
